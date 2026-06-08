@@ -20,7 +20,7 @@
 pip install -r requirements.txt
 ```
 
-OCR 功能需要 `rapidocr-onnxruntime`，首次安装较大（约 1GB），可选安装。
+OCR 功能需要 `rapidocr-onnxruntime`，首次安装较大（约 100MB），可选安装。
 
 ## 运行
 
