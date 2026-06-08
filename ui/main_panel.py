@@ -720,6 +720,7 @@ class MainPanel:
             else:
                 editor.result.text_verify = action.text_verify
                 editor.result.on_fail_jump = action.on_fail_jump
+            ai = self._actions.index(act)
             self._actions[ai] = editor.result
             self._refresh_list()
             self._listbox.selection_set(row_idx)
