@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Project specific
+*.zip
+*.json
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+Thumbs.db
+Desktop.ini
